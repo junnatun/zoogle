@@ -21,7 +21,7 @@ class LoginPage : AppCompatActivity() {
 //            startActivity(Intent(this,Splashscreen::class.java))
 //        }
         binding.btnLogin.setOnClickListener {
-            val intent = Intent(this, SignUpPage::class.java)
+            val intent = Intent(this, HomePage::class.java)
 //            intent.putExtra("name", "junna")
             startActivity(intent)
         }
