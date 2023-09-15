@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ZoogleApp"
         tools:targetApi="31">
+
         <activity
             android:name=".MainActivity"
             android:exported="false" />
@@ -31,10 +32,8 @@
             android:name=".ui.LoginPage"
             android:exported="false" />
         <activity
-            android:name=".ui.LinearLayout"
-            android:exported="false" />
-
-
+            android:name=".ui.HomePage"
+            android:exported="false"/>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
