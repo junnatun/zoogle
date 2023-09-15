@@ -17,6 +17,7 @@
         android:fontFamily="@font/poppins_extrabold"
         android:text="Daftar"
         android:textSize="28sp"
+        android:textColor="@color/fontdarkcolor"
         android:layout_marginBottom="16dp"/>
 
     <TextView
@@ -26,7 +27,9 @@
         android:layout_marginBottom="32dp"
         android:fontFamily="@font/poppins"
         android:text="Yuk, daftarkan akunmu dengan email dan kata sandi"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:textColor="@color/fontdarkcolor"/>
+
 
     <TextView
         android:id="@+id/textView3"
@@ -35,13 +38,14 @@
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/poppins_medium"
         android:text="Nama"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textColor="@color/fontdarkcolor"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="Masukkan nama lengkap"
-        android:padding_vertical="14dp"
+        android:paddingVertical="14dp"
         android:paddingStart="24dp"
         android:background="@drawable/bg_edittext"
         android:layout_marginBottom="24dp"
@@ -55,13 +59,14 @@
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/poppins_medium"
         android:text="Email"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textColor="@color/fontdarkcolor"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="Masukkan email"
-        android:padding_vertical="14dp"
+        android:paddingVertical="14dp"
         android:paddingStart="24dp"
         android:background="@drawable/bg_edittext"
         android:layout_marginBottom="24dp"
@@ -75,13 +80,14 @@
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/poppins_medium"
         android:text="Kata Sandi"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textColor="@color/fontdarkcolor"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="Masukkan kata sandi"
-        android:padding_vertical="14dp"
+        android:paddingVertical="14dp"
         android:paddingStart="24dp"
         android:background="@drawable/bg_edittext"
         android:layout_marginBottom="24dp"
@@ -95,13 +101,14 @@
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/poppins_medium"
         android:text="Konfirmasi Kata Sandi"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textColor="@color/fontdarkcolor"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="Masukkan kata sandi"
-        android:padding_vertical="14dp"
+        android:paddingVertical="14dp"
         android:paddingStart="24dp"
         android:background="@drawable/bg_edittext"
         android:layout_marginBottom="24dp"
@@ -119,19 +126,23 @@
             android:layout_height="wrap_content"
             android:text="Sudah punya akun? "
             android:textSize="16sp"
-            android:fontFamily="@font/poppins"/>
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/fontdarkcolor"/>
 
-        <TextView
+        <Button
+            android:id="@+id/btnMasuk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins_bold"
             android:text="Masuk"
             android:textSize="16sp"
+            android:textColor="@color/fontdarkcolor"
+            style="?android:attr/borderlessButtonStyle"
             />
     </LinearLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Daftar"
