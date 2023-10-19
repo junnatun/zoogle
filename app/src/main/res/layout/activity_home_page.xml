@@ -230,5 +230,66 @@
 
         </androidx.gridlayout.widget.GridLayout>
 
+    <androidx.gridlayout.widget.GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+        >
+
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="14dp"
+            android:layout_toStartOf="@+id/imageButton6"
+            android:adjustViewBounds="true"
+            android:backgroundTint="#FFFFFF"
+            android:maxHeight="164dp"
+            android:padding="0dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/atv" />
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:adjustViewBounds="true"
+            android:backgroundTint="#FFFFFF"
+            android:maxHeight="164dp"
+            android:padding="0dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/interaksi_gajah" />
+
+        <ImageButton
+            android:id="@+id/imageButton13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="14dp"
+            android:layout_toStartOf="@+id/imageButton6"
+            android:adjustViewBounds="true"
+            android:backgroundTint="#FFFFFF"
+            android:maxHeight="164dp"
+            android:padding="0dp"
+            android:scaleType="fitCenter"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/bumper_boat" />
+
+        <ImageButton
+            android:id="@+id/imageButton14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:backgroundTint="#FFFFFF"
+            android:maxHeight="164dp"
+            android:padding="0dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/speed_boat" />
+
+    </androidx.gridlayout.widget.GridLayout>
+>>>>>>> fab92b8550cfb41ab813c52c686b4dee50c20c3a
 
 </LinearLayout>

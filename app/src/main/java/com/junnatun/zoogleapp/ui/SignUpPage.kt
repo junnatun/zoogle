@@ -54,7 +54,7 @@ class SignUpPage : AppCompatActivity() {
         }
 
         binding.btnSignUp.setOnClickListener {
-            val intent = Intent(this, SignUpPage::class.java)
+            val intent = Intent(this, HomePage::class.java)
 //            intent.putExtra("name", "")
             startActivity(intent)
         }
